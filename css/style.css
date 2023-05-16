@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1, h2,h3,h4,h5{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #1a1d20;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1a1d20;
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+
+.bg-color{
+    background-color: #1c1c1c;
+}
+
+.bg-theme{
+
+    color: #C850C0;
+    background-image: none!important;
+}
+
+.fa-star{
+    color: #C850C0;
+}
+
+.nav-link{
+    color: #fff!important;
+}
+
+/*shape divider start */
+
+.custom-shape-divider-bottom-1684208460 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684208460 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1684208460 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*shape dividers end */
+
+.common-section{
+    padding: 0 0 9rem 0;
+}
+
+.more-info-section{
+    background-image: linear-gradient(rgba(22,22,22,0.9), rgba(22,22,22,0.9)), url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /*background-image: linear-gradient(to right, #ff0000, #0000ff), url(image.jpg);*/
+    /*background-image: url("https://images.pexels.com/photos/755405/pexels-photo-755405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"), linear-gradient(rgba(0,0,0,0.1));*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.services-section{
+    padding: 6rem 0 3rem 0!important;
+}
+
+.business-section{
+    padding-top: 3rem;
+}
+
+.btn-primary{
+    background: #1089ff;
+    border: none;
+    outline: none;
+}
+
+.para-width{
+    width: 55ch;
+}
+
+.text-grey{
+    color:#00000080;
+}
+
+.text-light-grey{
+    color:#ffffff33;
+}
+
+.card-title{
+    font-weight: 500;
+    letter-spacing: .05rem;
+}
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem!important;
+}
+
+.common-title {
+    margin-bottom: 4.2rem;
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.services-section .card-box{
+    padding: 4rem  2.4rem 3rem!important;
+    border-radius: .5rem!important;
+}
+
+button, a{
+    font-size: 1.15rem!important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+
+.btn-dark{
+    background-color: #1a1d20;
+    color: #fff;
+}
+
+/*carousal section */
+.carousel-inner .card{
+    background-color: #262631;
+    color: #fff;
+    transition: all .2s linear;
+}
+
+.carousel-inner .card p{
+    color: #fff;
+}
+
+.carousel-inner .card:hover{
+    background: #fff;
+    color: #1a1d20;
+}
+
+.carousel-inner .card:hover p{
+    color: #1a1d20;
+}
+
+
+/*carousal section end */
+
+
+/*blog section */
+
+.blog-section{
+    padding-bottom: 3rem;
+}
+
+/*blog section ends */
+
+/*contact section */
+
+.contact-section{
+    position: relative;
+}
+
+.custom-shape-divider-top-1684211116 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1684211116 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1684211116 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*contact section end */
+
+/*footer styling */
+.main-footer-section{
+ padding: 0 0 4rem 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.contact-div{
+    background-color:  #1c1c1c;
+}
+
+.icon-div{
+    width: 3.5rem;
+    height: 3.5rem;
+    background: #1089ff;
+}
+
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #393939;
+    color: #fff;
+}
+
+.carousel-indicators{
+    bottom: -20%;
+}
+
+.carousel-indicators [data-bs-target]{
+    margin-top: 2rem;
+    width: .7rem;
+    height: .7rem;
+    background-color: #1089ff;
+}
+
