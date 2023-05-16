@@ -325,26 +325,25 @@ a {
 .row-img {
   display: grid;
   place-content: center;
-  max-width: max-content;
   margin-inline: auto;
+  max-width: 900px;
+  overflow: hidden;
+  border-radius: 2rem;
+  height: 550px;
+}
+
+.row-img video {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 550px;
+  min-width: 1000px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .row img {
   max-width: 500px;
-}
-
-.hero {
-  position: relative;
-}
-
-.hero-img figure {
-  width: 100%;
-  height: 100%;
-  /* min-height: 500px; */
-}
-
-.hero-img img {
-  max-width: 550px;
 }
 
 .row-2 {
@@ -431,36 +430,12 @@ a {
   padding-bottom: 10rem;
 }
 
-.subImg {
-  position: absolute;
-  top: 6%;
-  right: 50%;
-  width: 100px;
-  opacity: 80%;
-}
-
-.subImg-1 {
-  width: 200px;
-  position: absolute;
-  bottom: 25%;
-  left: -5%;
-  rotate: 65deg;
-  opacity: 50%;
-}
-
-.emoji {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  width: 300px;
-}
-
 .hero-container {
   width: 100%;
   height: 100%;
   max-width: 1140px;
   margin-inline: auto;
-  min-height: 90vh;
+  /* min-height: 800px; */
   padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -483,6 +458,16 @@ a {
   max-width: 600px;
   align-self: center;
   margin-bottom: 2rem;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  bottom: -73px;
+  right: 0;
+  width: 200px;
+  object-fit: contain;
+  rotate: 5deg;
 }
 
 .hero-container button {
@@ -524,36 +509,58 @@ a {
 
 .Hero .img {
   width: 100%;
-  height: 100%;
-
-  border-radius: 2rem;
-  overflow: hidden;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* height: 100%; */
+  max-width: 500px;
+  height: 500px;
+  position: relative;
 }
 
-.Hero .img video {
+.subimg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  opacity: 60%;
+  object-fit: contain;
+  rotate: 90deg;
+}
+
+.emoji {
+  position: absolute;
+  top: -5%;
+  left: -20%;
+  width: 180px;
+  rotate: -25deg;
+  filter: drop-shadow(0 0 0.75rem rgba(110, 238, 255, 0.411));
+}
+
+.emoji2 {
+  position: absolute;
+  bottom: 15rem;
+  right: 1rem;
+  width: 120px;
+  rotate: 25deg;
+  filter: drop-shadow(0 0 0.75rem rgba(110, 238, 255, 0.411));
+}
+
+.Hero .img .main {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
+  object-fit: contain;
 }
 
 @media (max-width: 1200px) {
-  .emoji {
-    left: 2%;
-    top: 30%;
-    rotate: -25deg;
-    width: 150px;
-  }
-
-  .subImg {
-    right: 10%;
-  }
-
   .hero-container {
     grid-template-columns: 1fr;
     padding-top: 4rem;
+  }
+
+  .arrow {
+    rotate: -58deg;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 150px;
   }
 
   .Hero .text {
@@ -572,12 +579,5 @@ a {
   .Hero .img {
     max-width: 600px;
     margin-inline: auto;
-  }
-}
-
-@media (max-width: 610px) {
-  .emoji,
-  .subImg {
-    display: none;
   }
 }
