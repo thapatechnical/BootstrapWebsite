@@ -2,39 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
           integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+          referrerpolicy="no-referrer" rel="stylesheet"/>
 
     <title>Document</title>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-color  pt-5 ">
+<!--   plx download the images, gifs from Pixcap Website here http://bit.ly/3zJ49Q7 -->
+
+<nav class="navbar navbar-expand-lg bg-color py-4 pt-lg-5">
     <div class="container">
-        <a class="navbar-brand text-white fw-bolder" href="#">Thapa Technical</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand text-white fw-bold" href="#">Thapa Technical</a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                 <li class=" nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a aria-current="page" class="nav-link active" href="#">Home</a>
                 </li>
                 <li class=" nav-item">
-                    <a class=" nav-link" href="/about.html">About</a>
+                    <a class=" nav-link" href="#about">About</a>
                 </li>
                 <li class=" nav-item">
-                    <a class=" nav-link" href="/about.html">Services</a>
+                    <a class=" nav-link" href="#online_services">Services</a>
                 </li>
                 <li class=" nav-item">
-                    <a class=" nav-link" href="/about.html">Contact</a>
+                    <a class=" nav-link" href="/contact.html">Contact</a>
                 </li>
 
 
@@ -46,43 +49,43 @@
 
 <!--hero section-->
 
-<section class="bg-main bg-color">
-    <div class="container ">
-        <div class="row">
-            <div class="col-xl-6 xol-lg-6 col-md-6 col-12 ">
-                <div class=" d-flex flex-column justify-content-center align-items-start order-1 order-md-0">
+<section class="bg-main bg-color hero-section">
+    <div class="container">
+        <div class="row mb-5 ">
+            <div class="d-flex flex-column align-items-start justify-content-center col-xl-6 xol-lg-6 col-md-12 col-12 order-1 order-lg-0 text-md-start text-center">
+                <h1 class=" text-capitalize fw-bolder text-white">
+                    We Collect High Quality Leads
+                </h1>
+                <p class="mt-3 mb-5  para-width text-light-grey ">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Quis ipsum suspendisse ultrices gravi.
+                </p>
 
-                    <h1 class=" text-capitalize fw-bolder text-white">
-                        We Collect <br> High Quality Leads
-                    </h1>
-                    <p class="mt-3 mb-5 pe-5 para-width text-light-grey ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Quis ipsum suspendisse ultrices gravi.
-                    </p>
-
-                    <button class="btn btn-primary px-5 py-2" data-bs-offset="0,5" data-bs-toggle="tooltip"
-                            data-bs-placement="top" data-bs-title="Get Best Services">Contact Us
+                <div class="text-center w-100 text-md-start">
+                    <button class="btn btn-primary px-5 py-2 " data-bs-offset="0,5" data-bs-placement="top"
+                            data-bs-title="Get Best Services" data-bs-toggle="tooltip">Contact Us
                     </button>
                 </div>
+
             </div>
 
-            <div class="col-xl-6 xol-lg-6 col-md-6 col-12 order-0 order-md-1 ">
-                <!--                <figure>-->
-                <!--                    <img src="./images/music.png" alt="mobile chat" class="img-fluid">-->
-                <!--                </figure>-->
-                <video src="./images/hero.mp4" autoplay muted style="width: 40rem">
-                    Your browser does not support the video tag.
-                </video>
+            <div class="col-xl-6 xol-lg-6 col-md-12 col-12 order-0 order-lg-1 hero-image--section ">
+                <div class="text-md-end text-center mb-5">
+
+                    <video autoplay class="hero-video--section" loop muted src="./images/hero.mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
 
         </div>
 
     </div>
     <div class="custom-shape-divider-bottom-1684208460">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                  class="shape-fill"></path>
+        <svg data-name="Layer 1" preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+            <path class="shape-fill"
+                  d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
         </svg>
     </div>
 </section>
@@ -98,17 +101,23 @@
         <hr class="w-25 mx-auto ">
     </div>
 
+    <!--   plx download the images, gifs from Pixcap Website here http://bit.ly/3zJ49Q7 -->
+
     <div class="container mt-5">
         <div class="row g-5 ">
             <div class="col-xxl-4 col-lg-4 col-12 ">
                 <div class=" card-box rounded-2 p-5 text-center">
-                    <i class="fa-solid fa-building fa-4x w-100 text-center bg-theme"></i>
-                    <h3 class="mt-5 mb-3 fw-normal "> Link Building</h3>
+                    <img alt="GIF Image" class="img-fluid"
+                         src="./images/link.gif"
+                         width="200px">
+
+                    <h5 class="my-3 fw-normal "> Link Building</h5>
                     <p class="pe-3 mb-5">
                         Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say arse!
                     </p>
                     <div class="  d-flex justify-content-center align-items-center ">
-                        <a href="/service.html" class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                        <a class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3"
+                           href="/service.html">
                             <i class="fa-solid fa-arrow-right"> </i>
                         </a>
                     </div>
@@ -117,13 +126,17 @@
 
             <div class="col-xxl-4 col-lg-4 col-12  ">
                 <div class=" card-box rounded-2 p-5 text-center shadow">
-                    <i class="fa-solid fa-building fa-4x w-100 text-center bg-theme"></i>
-                    <h3 class="mt-5 mb-3"> Link Building</h3>
+                    <img
+                          alt="GIF Image" class="img-fluid"
+                         src="./images/speaker.gif" width="200px">
+
+                    <h5 class="my-3 fw-normal"> Content marketing </h5>
                     <p class="pe-3 mb-5">
                         Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say arse!
                     </p>
                     <div class="  d-flex justify-content-center align-items-center ">
-                        <a href="/service.html" class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                        <a class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3"
+                           href="/service.html">
                             <i class="fa-solid fa-arrow-right"> </i>
                         </a>
                     </div>
@@ -132,13 +145,16 @@
 
             <div class="col-xxl-4 col-lg-4 col-12 ">
                 <div class=" card-box rounded-2 p-5 text-center">
-                    <i class="fa-solid fa-building fa-4x w-100 text-center bg-theme"></i>
-                    <h3 class="mt-5 mb-3 fw-normal "> Link Building</h3>
+                    <img
+                            alt="GIF Image" class="img-fluid"
+                         src="./images/seo.gif" width="200px">
+                    <h5 class="my-3 fw-normal "> On Page SEO </h5>
                     <p class="pe-3 mb-5">
                         Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say arse!
                     </p>
                     <div class="  d-flex justify-content-center align-items-center ">
-                        <a href="/service.html" class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                        <a class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3"
+                           href="/service.html">
                             <i class="fa-solid fa-arrow-right"> </i>
                         </a>
                     </div>
@@ -155,13 +171,15 @@
 
     <section class="container ">
         <div class="row">
-            <div class="col-xl-6 xol-lg-6 col-md-6 col-12 float-start">
+            <div class="col-xl-6 xol-lg-6 col-md-12 col-12 img-section">
                 <figure>
-                    <img src="./images/music.png" alt="mobile chat" class="img-fluid">
+                    <img
+                            alt="mobile chat" class="img-fluid" width="100px"
+                         src="./images/phone.gif">
                 </figure>
             </div>
 
-            <div class="col-xl-6 xol-lg-6 col-md-6 col-12  d-flex flex-column justify-content-center align-items-start ">
+            <div class="col-xl-6 xol-lg-6 col-md-12 col-12  d-flex flex-column justify-content-center align-items-start ">
 
                 <h1 class="common-heading text-capitalize fw-bolder text-white">
                     Steps to Build a <br> Successful Digital Product
@@ -181,7 +199,7 @@
     </section>
 </section>
 
-<section class="common-section business-section">
+<section class="common-section business-section" id="online_services">
     <div class="container text-center fw-bold common-title">
         <h2 class="common-heading">Generating New Customers Via <br>Online Mode</h2>
         <hr class="w-25 mx-auto ">
@@ -189,50 +207,67 @@
 
     <div class="container">
         <div class="row g-5">
-            <div class="col-xl-6 ">
-                <div class="d-flex p-3 shadow ">
-                    <i class="bg-theme fa-solid fa-folder-tree align-self-center fa-3x px-5"></i>
+            <div class="col-xl-6 col-md-12 ">
+                <div class="d-flex  px-3 py-5 shadow ">
+                    <!--                    <i class="bg-theme fa-solid d-md-block d-none fa-folder-tree align-self-center fa-3x px-5"></i>-->
+                    <img
+                            alt="GIF Image" class=" d-md-block d-none  img-fluid mx-3"
+                         src="./images/phone.gif"
+                         width="150px">
 
                     <div class="row ">
-                        <p class="mb-3 fw-bolder">All Sizes Business </p>
-                        <p>Seddo eiusmod tempor incididunt labore lore magna aliqua uisipsum suspendis incididun se
-                            ultrices gravida. </p>
+                        <p class="mb-3 fw-bolder">Social Media Advertising </p>
+                        <p> Reach a wider audience by creating engaging ads on platforms like Facebook, Instagram and
+                            LinkedIn. Target specific demographics to connect with potential customers interested in
+                            your services. </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-6 ">
-                <div class="d-flex p-3 shadow ">
-                    <i class="bg-theme fa-solid fa-folder-tree align-self-center fa-3x px-5"></i>
+            <div class="col-xl-6 col-md-12 ">
+                <div class="d-flex  px-3 py-5 shadow ">
+<!--                             plx download the images, gifs from here http://bit.ly/3zJ49Q7 -->
+                    <img
+                    alt="GIF Image" class=" d-md-block d-none  img-fluid mx-3"
+                         src="./images/online.gif"
+                         width="150px">
 
                     <div class="row ">
-                        <p class="mb-3 fw-bolder">All Sizes Business </p>
-                        <p>Seddo eiusmod tempor incididunt labore lore magna aliqua uisipsum suspendis incididun se
-                            ultrices gravida. </p>
+                        <p class="mb-3 fw-bolder">Influencer Marketing </p>
+                        <p>Partner with influential individuals or bloggers in your industry to tap into their audience.
+                            Through sponsored posts or endorsements, you can generate interest and attract new customers
+                            to your online channels. </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-6 ">
-                <div class="d-flex p-3 shadow ">
-                    <i class="bg-theme fa-solid fa-folder-tree align-self-center fa-3x px-5"></i>
+            <div class="col-xl-6 col-md-12 ">
+                <div class="d-flex  px-3 py-5 shadow ">
+                    <img alt="GIF Image" class=" d-md-block d-none  img-fluid mx-3"
+                         src="./images/online.gif"
+                         width="150px">
 
                     <div class="row ">
-                        <p class="mb-3 fw-bolder">All Sizes Business </p>
-                        <p>Seddo eiusmod tempor incididunt labore lore magna aliqua uisipsum suspendis incididun se
-                            ultrices gravida. </p>
+                        <p class="mb-3 fw-bolder">Content Marketing </p>
+                        <p>Publish valuable and optimized content on your website's blog. Attract organic traffic,
+                            position your brand as an authority, and encourage visitors to engage and make a
+                            purchase. </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-6 ">
-                <div class="d-flex p-3 shadow ">
-                    <i class="bg-theme fa-solid fa-folder-tree align-self-center fa-3x px-5"></i>
+            <div class="col-xl-6 col-md-12 ">
+                <div class="d-flex  px-3 py-5 shadow ">
+                    <img
+                          alt="GIF Image" class=" d-md-block d-none  img-fluid mx-3"
+                         src="./images/phone.gif"
+                         width="150px">
 
                     <div class="row ">
-                        <p class="mb-3 fw-bolder">All Sizes Business </p>
-                        <p>Seddo eiusmod tempor incididunt labore lore magna aliqua uisipsum suspendis incididun se
-                            ultrices gravida. </p>
+                        <p class="mb-3 fw-bolder">Referral Programs</p>
+                        <p>Implement a customer referral program. Incentivize existing customers to refer others with
+                            rewards like discounts or loyalty points. Word-of-mouth marketing helps acquire new
+                            customers.</p>
                     </div>
                 </div>
             </div>
@@ -249,29 +284,32 @@
         <hr class="w-25 mx-auto">
     </div>
 
+    <!--   plx download the images, gifs from Pixcap Website here http://bit.ly/3zJ49Q7 -->
 
     <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel slide" data-bs-ride="true" id="carouselExampleIndicators">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                        data-bs-target="#carouselExampleIndicators" type="button"></button>
+                <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators"
+                        type="button"></button>
+                <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators"
+                        type="button"></button>
             </div>
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row ">
+                    <div class="row g-4">
                         <div class="col-xxl-4">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="card  p-3" style="width: 18rem; ">
-                                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                         class="card-img-top" alt="...">
+                                    <img alt="..."
+                                         class="card-img-top"
+                                         src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title  mb-3">Angelina Thapa</h5>
-                                        <p class="card-text ">Some quick example text to build on the card title and make
+                                        <p class="card-title  mb-3 ">Angelina Thapa</p>
+                                        <p class="card-text ">Some quick example text to build on the card title and
+                                            make
                                             up
                                             the bulk of the card's content.</p>
                                         <div class=" mt-3 d-flex justify-content-center">
@@ -289,10 +327,11 @@
                         <div class="col-xxl-4">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="card  p-3" style="width: 18rem;">
-                                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                         class="card-img-top" alt="...">
+                                    <img alt="..."
+                                         class="card-img-top"
+                                         src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title  mb-3">Angelina Thapa</h5>
+                                        <p class="card-title  mb-3">Angelina Thapa</p>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
@@ -311,10 +350,11 @@
                         <div class="col-xxl-4">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="card  p-3" style="width: 18rem;">
-                                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                         class="card-img-top" alt="...">
+                                    <img alt="..."
+                                         class="card-img-top"
+                                         src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title  mb-3">Angelina Thapa</h5>
+                                        <p class="card-title  mb-3">Angelina Thapa</p>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
@@ -333,14 +373,15 @@
 
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
+                    <div class="row g-4">
                         <div class="col-xxl-4">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="card  p-3" style="width: 18rem;">
-                                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                         class="card-img-top" alt="...">
+                                    <img alt="..."
+                                         class="card-img-top"
+                                         src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title  mb-3">Angelina Thapa</h5>
+                                        <p class="card-title  mb-3">Angelina Thapa</p>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
@@ -359,10 +400,11 @@
                         <div class="col-xxl-4">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="card  p-3" style="width: 18rem;">
-                                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                         class="card-img-top" alt="...">
+                                    <img alt="..."
+                                         class="card-img-top"
+                                         src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title  mb-3">Angelina Thapa</h5>
+                                        <p class="card-title  mb-3">Angelina Thapa</p>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
@@ -381,10 +423,11 @@
                         <div class="col-xxl-4">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="card  p-3" style="width: 18rem;">
-                                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                         class="card-img-top" alt="...">
+                                    <img alt="..."
+                                         class="card-img-top"
+                                         src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title  mb-3">Angelina Thapa</h5>
+                                        <p class="card-title  mb-3">Angelina Thapa</p>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
@@ -402,14 +445,15 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
+                    <div class="row g-4">
                         <div class="col-xxl-4">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="card  p-3" style="width: 18rem;">
-                                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                         class="card-img-top" alt="...">
+                                    <img alt="..."
+                                         class="card-img-top"
+                                         src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title  mb-3">Angelina Thapa</h5>
+                                        <p class="card-title  mb-3">Angelina Thapa</p>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
@@ -428,10 +472,11 @@
                         <div class="col-xxl-4">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="card  p-3" style="width: 18rem;">
-                                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                         class="card-img-top" alt="...">
+                                    <img alt="..."
+                                         class="card-img-top"
+                                         src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title  mb-3">Angelina Thapa</h5>
+                                        <p class="card-title  mb-3">Angelina Thapa</p>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
@@ -450,10 +495,11 @@
                         <div class="col-xxl-4">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="card  p-3" style="width: 18rem;">
-                                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                         class="card-img-top" alt="...">
+                                    <img alt="..."
+                                         class="card-img-top"
+                                         src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title  mb-3">Angelina Thapa</h5>
+                                        <p class="card-title  mb-3">Angelina Thapa</p>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
@@ -471,14 +517,14 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators"
+                    type="button">
+                <span aria-hidden="true" class="carousel-control-prev-icon"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators"
+                    type="button">
+                <span aria-hidden="true" class="carousel-control-next-icon"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
@@ -498,75 +544,90 @@
     </div>
 
     <div class="container my-5">
-        <div class="row">
-            <div class="col-xl-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/1.png"
-                         class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between">
+        <div class="row g-5  ">
+            <div class="col-xl-3 col-md-6 col-12 ">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="card" style="width: 18rem;">
+                        <img alt="..." class="card-img-top"
+                             src="./images/1.png">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
 
-                            <p class="small text-grey "><i class="fa-solid fa-book-open-reader"></i> : 5000 </p>
-                            <p class="small text-grey "> March 3, 2020 </p>
+                                <p class="small text-grey "><i class="fa-solid fa-book-open-reader"></i> : 5000 </p>
+                                <p class="small text-grey "> March 3, 2020 </p>
+                            </div>
+                            <h5 class="card-title mt-3">Web Development</h5>
+
+                            <p class="card-text mt-2 mb-3">Some quick example text to build on the card title and make
+                                up the bulk of
+                                the card's content.</p>
+                            <a class="px-4 py-2 btn btn-dark" href="#">Read More</a>
                         </div>
-                        <h5 class="card-title mt-3">Web Development</h5>
-
-                        <p class="card-text mt-2 mb-3">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="px-4 py-2 btn btn-dark">Go somewhere</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/2.png"
-                         class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between">
+            <div class="col-xl-3 col-md-6 col-12 ">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="card" style="width: 18rem;">
+                        <img alt="..."
+                        class="card-img-top"
+                             src="./images/2.png">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
 
-                            <p class="small text-grey "><i class="fa-solid fa-book-open-reader"></i> : 5000 </p>
-                            <p class="small text-grey "> March 3, 2020 </p>
+                                <p class="small text-grey "><i class="fa-solid fa-book-open-reader"></i> : 5000 </p>
+                                <p class="small text-grey "> March 3, 2020 </p>
+                            </div>
+                            <h5 class=" mt-3 card-title">Freelancing</h5>
+                            <p class="card-text mt-2 mb-3">Some quick example text to build on the card title and make
+                                up the bulk of
+                                the card's content.</p>
+                            <a class="px-4 py-2 btn btn-dark" href="#">Read More</a>
                         </div>
-                        <h5 class=" mt-3 card-title">Card title</h5>
-                        <p class="card-text mt-2 mb-3">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="px-4 py-2 btn btn-dark">Go somewhere</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/3.png"
-                         class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between">
+            <div class="col-xl-3 col-md-6 col-12 ">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="card" style="width: 18rem;">
+                        <img alt="..."
 
-                            <p class="small text-grey "><i class="fa-solid fa-book-open-reader"></i> : 5000 </p>
-                            <p class="small text-grey "> March 3, 2020 </p>
+                             plx download the images, gifs from here class="card-img-top"
+                             src="./images/3.png">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+
+                                <p class="small text-grey "><i class="fa-solid fa-book-open-reader"></i> : 5000 </p>
+                                <p class="small text-grey "> March 3, 2020 </p>
+                            </div>
+                            <h5 class=" mt-3 card-title">Graphic Designer</h5>
+                            <p class="card-text mt-2 mb-3">Some quick example text to build on the card title and make
+                                up the bulk of
+                                the card's content.</p>
+                            <a class="px-4 py-2 btn btn-dark " href="#">Read More</a>
                         </div>
-                        <h5 class=" mt-3 card-title">Card title</h5>
-                        <p class="card-text mt-2 mb-3">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="px-4 py-2 btn btn-dark ">Go somewhere</a>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/4.png"
-                         class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between">
+            <div class="col-xl-3 col-md-6 col-12 ">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="card" style="width: 18rem;">
+                        <img alt="..." class="card-img-top" src="./images/4.png">
+<!--                             plx download the images, gifs from here http://bit.ly/3zJ49Q7-->
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
 
-                            <p class="small text-grey "><i class="fa-solid fa-book-open-reader"></i> : 5000 </p>
-                            <p class="small text-grey "> March 3, 2020 </p>
+                                <p class="small text-grey "><i class="fa-solid fa-book-open-reader"></i> : 5000 </p>
+                                <p class="small text-grey "> March 3, 2020 </p>
+                            </div>
+                            <h5 class=" mt-3 card-title">Wordpress Developer</h5>
+                            <p class="card-text mt-2 mb-3">Some quick example text to build on the card title and make
+                                up the bulk of
+                                the card's content.</p>
+                            <a class="px-4 py-2 btn btn-dark" href="#">Read More</a>
                         </div>
-                        <h5 class=" mt-3 card-title">Card title</h5>
-                        <p class="card-text mt-2 mb-3">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="px-4 py-2 btn btn-dark">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -582,42 +643,46 @@
 <!--contact section-->
 <section class="common-section bg-color contact-section text-white">
     <div class="custom-shape-divider-top-1684211116">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        <svg data-name="Layer 1" preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+            <path class="shape-fill"
+                  d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
         </svg>
     </div>
 
-    <div class="container text-center fw-bold common-title pt-5">
+    <div class="container text-center fw-bold common-title ">
         <h2 class="common-heading text-white ">Contact Us</h2>
         <hr class="w-25 mx-auto">
     </div>
 
     <div class="container ">
-        <div class="form-section w-50 mx-auto">
+        <div class="form-section  mx-auto">
             <form>
                 <div class="mb-3">
                     <div class="row">
                         <div class="col">
-                            <label for="first-name" class="form-label">First name</label>
-                            <input type="text" class="form-control" id="first-name" placeholder="First name"
-                                   aria-label="First name">
+                            <label class="form-label" for="first-name">First name</label>
+                            <input class="form-control" id="first-name" placeholder="First name"
+                                   aria-label="First name" type="text" required>
                         </div>
                         <div class="col">
                             <label for="last-name" class="form-label">Last name</label>
                             <input type="text" class="form-control" id="last-name" placeholder="Last name"
-                                   aria-label="Last name">
+                                   aria-label="Last name" required>
                         </div>
                     </div>
                 </div>
 
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <input type="email" class="form-control" id="exampleInputEmail1" required
+                           placeholder="Enter your email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" required
+                              placeholder="Enter your message " rows="3"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
@@ -640,7 +705,9 @@
                 <div class="col-lg-4 ">
                     <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
                         <div class="icon-div d-flex justify-content-center align-items-center rounded-circle mb-3">
-                            <i class="fa-solid fa-phone"></i>
+                            <img
+                            src="./images/call.gif" alt="GIF Image" class="img-fluid">
+<!--                                    plx download the images, gifs from here http://bit.ly/3zJ49Q7-->
                         </div>
                         <p class="text-white">(+00) 1234 5678</p>
                     </div>
@@ -649,7 +716,8 @@
                 <div class="col-lg-4 ">
                     <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
                         <div class="icon-div d-flex justify-content-center align-items-center rounded-circle mb-3">
-                            <i class="fa-solid fa-phone"></i>
+                            <!--                            <i class="fa-solid fa-phone"></i>-->
+                            <img src="./images/email.gif" alt="GIF Image" class="img-fluid">
                         </div>
                         <p class="text-white">(+00) 1234 5678</p>
                     </div>
@@ -658,7 +726,7 @@
                 <div class="col-lg-4 ">
                     <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
                         <div class="icon-div d-flex justify-content-center align-items-center rounded-circle mb-3">
-                            <i class="fa-solid fa-phone"></i>
+                            <img src="./images/map.gif" alt="GIF Image" class="img-fluid">
                         </div>
                         <p class="text-white">(+00) 1234 5678</p>
                     </div>
@@ -669,7 +737,7 @@
         <div class="footer-section py-5 text-white">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-md-6 col-12">
+                    <div class="col-lg-2 col-md-6 col-6">
                         <div class="footer-links">
                             <h4 class="text-white mt-5 mb-3">About</h4>
                             <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
@@ -682,7 +750,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-6 col-12">
+                    <div class="col-lg-2 col-md-6 col-6">
                         <div class="footer-links">
                             <h4 class="text-white mt-5 mb-3">About</h4>
                             <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
@@ -695,7 +763,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-6 col-12">
+                    <div class="col-lg-2 col-md-6 col-6">
                         <div class="footer-links">
                             <h4 class="text-white mt-5 mb-3">About</h4>
                             <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
@@ -710,7 +778,7 @@
 
                     <div class="col-lg-6 col-md-6 col-12">
                         <div class="footer-links">
-                            <h4 class="mt-5 mb-3">Subscribe</h4>
+                            <h4 class="mt-5 mb-3 text-white">Subscribe</h4>
                             <div class="input-group mb-3 w-75">
                                 <input type="text" class="form-control" placeholder="Recipient's username"
                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -730,16 +798,19 @@
                 <div class="col-lg-8 col-12 ">
                     Copyright ©2023 All rights reserved. | This template is made with by <span class="bg-theme"> ThapaTechnical.com</span>
                 </div>
-                <div class="col-4">
-                    <div class="d-flex justify-content-end gap-5">
+                <div class="col-md-4 col-12  ">
+                    <div class="d-flex justify-content-center justify-content-lg-end gap-5 mt-lg-0 mt-3">
+                        <a href="https://www.instagram.com/thapatechnical/" target="_blank">
+                            <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </a>
                         <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
                             <i class="fa-brands fa-whatsapp"></i>
                         </div>
                         <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </div>
-                        <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
-                            <i class="fa-brands fa-whatsapp"></i>
+<!--                            <i class="fa-brands fa-whatsapp"></i>-->
+                            <i class="fa-brands fa-twitter"></i>
                         </div>
                     </div>
                 </div>
