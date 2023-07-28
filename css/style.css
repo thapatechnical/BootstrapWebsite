@@ -83,7 +83,16 @@ a{
     place-items: center;
     height: inherit;
 }
+.hero-section h1{
+    font-size: 3.4rem;
+}
 
+.hero-section h1:first-letter{
+    /*font-size: 10rem;*/
+    initial-letter: 2 ;
+    padding-right: .2rem;
+    color: var(--secondary-color);
+}
 
 .hero-video--section{
     width: 30rem;
